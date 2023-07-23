@@ -1,0 +1,11 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.274);
+}
+
+img{
+    width: 100%;
+}

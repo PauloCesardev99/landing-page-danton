@@ -1,0 +1,228 @@
+
+/* Sessão principal */
+
+.section-principal{
+    display: flex;
+    padding: 0px 0px 50px 0px;
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    background: url(../img/background-teste.jpg) no-repeat center center;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    
+ 
+    
+}
+.section-principal > .logo > img{  
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    border-radius: 50%;
+    border: solid 2px rgb(114, 238, 247);
+}
+
+.section-principal > h1 {
+    text-align: center;
+    padding: 10px;
+
+}
+
+.section-principal >p{
+    text-align: center;
+    font-size: 19px;
+    line-height: 30px;
+    
+}
+
+.section-principal > h3{
+    padding-top: 10px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: rgb(0, 255, 0);
+    width: 80%;
+    height: 60px;
+    border-radius: 50px 50px 50px 50px;
+    border: none;
+}
+
+button >a{
+    color: white;
+    font-size: 1.5em;
+    font-weight: bolder;
+    
+}
+  .span-sessao-1{
+    background-color: blueviolet;
+}
+
+.imagens-bandeiras-cartao{
+    padding-top: 10px;
+    width: 40%;
+}
+
+.pc-e-mobile{
+    width: 50%;
+    margin: 10px 0px 10px 0px;
+    
+}
+
+
+
+/* Sessao -2 noticias*/
+
+.sessao-noticias-marketing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+
+.sessao-noticias-marketing> h1{
+    text-align: center;
+}
+
+.titulo-sessao-2{
+    color: blueviolet;
+}
+
+.noticias {
+    margin-top: 30px;
+}
+
+.noticias > img {
+ width: 400px;
+ height: 250px;
+ box-shadow: 5px 5px  5px rgba(0, 0, 0, 0.233);
+
+}
+
+.sessao-noticias-marketing > p{
+    text-align: center;
+    margin-top: 10px;
+    line-height: 32px;
+    font-size: 1.8em;
+    font-weight: bolder;
+    color: rgba(139, 18, 119, 0.651);
+
+}
+
+.sessao-noticias-marketing > p:last-child{
+    color: black;
+}
+
+.span-noticias{
+    background-color: rgb(226, 43, 165);
+    color: white;
+}
+
+.p-noticias-especial{
+    text-align: center;
+   padding: 1px;
+   font-size: 1.8em;
+   margin-top: 10px;
+   color: white;
+   background-color: rgba(139, 18, 119, 0.651);
+}
+
+/* Aprendizados*/
+
+.apredizados{
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.apredizado{
+    width: 320px;
+    height: 250px;
+    padding: 30px;
+    margin-top: 20px;
+    border: solid 2px rgba(0, 0, 0, 0.116);
+    border-radius: 20px;
+    box-shadow: 5px 2px 10px rgba(0, 0, 0, 0.562);
+}
+
+.icon-apredizado{
+    text-align: center;
+}
+
+.apredizado > h2{
+    margin-top: 10px;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+.apredizado > .icon-apredizado >img{
+    width: 50px;
+    height: 50px;
+
+}
+
+.seta-apredizados > img{
+    margin-top: 2px;
+    width: 30px;
+    height: 30px;
+    
+}
+
+/* Depoimentos*/
+
+.depoimentos{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+.depoimentos >h1{
+    text-align: center;
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.depoimento > iframe{
+    margin-top: 10px;
+   border-radius: 20px;
+}
+
+/* Metodologia */
+
+.metodologia{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-top: solid 2px black;
+    text-align: center;
+}
+
+.metodologia > button{
+    margin-top: 10px;
+}
+
+.metodologia > p {
+    font-size: 1.5em;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+
+.metodologia-imagem-metodo{
+    text-align: center;
+}
+
+.metodologia-imagem-metodo > img{
+    width: 50%;
+}
+
+
+
