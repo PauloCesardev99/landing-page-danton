@@ -1,4 +1,6 @@
 const apredizados = [...document.querySelectorAll(".apredizado")]
+const conteudos = [...window.document.querySelectorAll("#conteudos > input")]
+let imagem_conteudo = window.document.getElementById("imagem_conteudo")
 
 
 
@@ -65,9 +67,21 @@ for (let i = 0; i< apredizados.length; i++){
         }
 
 
-
-
     })
 
 }
     
+
+conteudos.map((e, i, array)=>{
+
+    e.addEventListener("click", ()=>{
+
+        if(i==0){
+            
+            imagem_conteudo.setAttribute("src", "src/img/interrogacao.jpg")
+
+        }
+
+    })
+
+})
