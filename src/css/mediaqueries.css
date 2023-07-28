@@ -1,0 +1,270 @@
+@media (min-width: 600px) {
+
+       /*Especiais */
+
+        .btn:hover{
+            background-color: purple;
+            color: black;
+            transition: 0.9s;
+        }
+
+        /*Sessão 1 */
+
+        .section-principal{
+            background: url(../img/Wallpaper-teste.webp) no-repeat center center;
+            background-size: cover;
+        }
+
+                 .section-principal > h1{
+                    width: 850px;
+                    font-size: 2em;
+                }
+
+            .section-principal > .logo > img{
+                width: 200px;
+                height: 200px;
+                
+            }
+
+            .section-principal >p{
+                width: 950px;
+                text-align: center;
+                font-size: 20px;
+                line-height: 30px;
+                font-weight: 600;
+            
+            }
+
+
+            .pc-e-mobile{
+                width: 30%;
+                margin: 10px 0px 10px 0px;
+                
+            }
+
+            .btn{
+                width:40% ;
+            }
+
+
+
+            
+
+            .section-principal > h3{
+                font-size: 20px;
+                font-weight: bolder;
+            }
+
+            .imagens-bandeiras-cartao{
+            
+                width: 20%;
+            }
+
+
+            /* Sessao noticias */
+
+            .sessao-noticias-marketing{
+                padding: 60px;
+            }
+
+            .sessao-noticias-marketing  h1{
+
+                font-size: 2.5em;
+                font-weight: bolder;
+
+            }
+
+            .noticia{
+                width: 100%;
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                
+            }
+
+            .sessao-noticias-marketing > p {
+                margin-top: 30px;
+            }
+                
+
+
+            /*Apredizados */
+
+            .apredizados{
+                padding: 60px;
+            }
+
+            .apredizados h1{
+                font-size: 2em;
+                padding: 10px;
+            }
+
+            .sessao-apredizados{
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: space-evenly;
+                width: 100%;
+            }
+
+            .apredizado:hover{
+                background-color: blue;
+                transition: 0.8s;
+            }
+
+
+            /* Depoimentos */
+
+            .depoimentos{
+            padding: 60px;
+            }
+            
+            .sessao-depoimentos{
+                display: flex;
+                flex-wrap: wrap;
+                width: 100%;
+                justify-content: space-evenly;
+
+
+            }
+
+            .depoimento > iframe{
+                width: 500px;
+                height: 350px;
+            }
+
+            /* metodologia */
+        .metodologia{
+            padding: 60px;
+        }
+
+        .metodologia > img{
+            margin: 10px;
+        }
+
+        .metodologia h1{
+            font-size: 3em;
+            padding: 10px;
+            margin: 10px 0px 10px 0px;
+        }
+
+        .metodologia > p{
+            width: 1100px;
+        }
+
+        .metodologia > p, .metodologia > .btn, .metodologia > h3 {
+
+            margin-top: 35px;
+        }
+
+        .metodologia .btn:hover{
+            background-color: rgb(0, 255, 0);
+        }
+
+
+        /* Bônus */
+
+        .todos-os-conteudos-bonus{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            width: 98vw;
+        }
+
+        .conteudo-bonus > p{
+            padding: 1px;
+            font-size: 20px;
+        }
+
+        .bonus .btn{
+            margin-top: 50px;
+        }
+
+        .bonus .btn:hover{
+            background-color: rgb(0, 255, 0);
+
+        }
+
+        /* Sobre o produtor*/
+
+        .sobre-o-produtor{
+            padding: 30px 0px 100px 0px;
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+        }
+
+        .sobre-o-produtor:first-child{
+            align-self: center;
+        }
+
+
+        .intro-introdutor{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            width: 500px;
+            padding: 10px;
+        }
+
+        .intro-introdutor > h1{
+            align-self: start;
+            font-size: 2em;
+        }
+
+        .intro-introdutor  p{
+            align-self: flex-start;
+            font-size: 20px;
+            text-align: justify;
+        }
+
+        .intro-introdutor > .btn{
+            width: 100%;
+            align-self: flex-start;
+        }
+
+
+
+        .sobre-o-produtor article .imagem-danton > img{
+            width: 350px;
+            height: 350px;
+            border: solid 5px purple;
+
+        }
+
+        /* Dúvidas */
+
+        .duvidas h1{
+            font-size: 2.5em;
+        }
+
+        .duvidas h2{
+            font-size: 2em;
+        }
+        .duvida-ocultada{
+            width: 800px;
+            height: 150px;
+            margin-top: 10px;
+            padding: 10px;
+           
+        }
+
+        .duvida-ocultada p{
+            font-size: 1.5em;
+        }
+
+        .whatsaap img {
+            width: 120px;
+            height: 120px;
+
+        }
+
+
+    
+
+}
+
+
+
+
+

@@ -1,6 +1,14 @@
 const apredizados = [...document.querySelectorAll(".apredizado")]
+
+/*Sessao Conteudos para que o client vai aprender slide */
 const conteudos = [...window.document.querySelectorAll("#conteudos > input")]
 let imagem_conteudo = window.document.getElementById("imagem_conteudo")
+
+/* Variantes e constantes do Acordion = (Duvidas?) */
+
+const setas_acordion  = [...document.querySelectorAll(".acordion")]
+const duvidas_ocultadas = [...document.querySelectorAll(".duvida-ocultada")]
+
 
 
 
@@ -83,5 +91,31 @@ conteudos.map((e, i, array)=>{
         }
 
     })
+
+})
+
+
+
+
+/* Sessão duvidas acordion*/
+
+setas_acordion.map((e, i, array)=>{
+
+    e.addEventListener("click", ()=>{
+
+        if(i==0){
+            duvidas_ocultadas[0].classList.toggle("duvida-ocultada-toggle")
+        } else if(i==1){
+            duvidas_ocultadas[1].classList.toggle("duvida-ocultada-toggle")
+        } else if (i==2){
+            duvidas_ocultadas[2].classList.toggle("duvida-ocultada-toggle")
+        } else if (i==3){
+            duvidas_ocultadas[3].classList.toggle("duvida-ocultada-toggle")
+        } else{
+            duvidas_ocultadas[4].classList.toggle("duvida-ocultada-toggle")
+        }
+
+    })
+
 
 })

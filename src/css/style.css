@@ -40,7 +40,10 @@
     text-align: center;
 }
 
-button{
+.btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     color: white;
     background-color: rgb(0, 255, 0);
@@ -48,14 +51,11 @@ button{
     height: 60px;
     border-radius: 50px 50px 50px 50px;
     border: none;
-}
-
-button >a{
-    color: white;
     font-size: 1.5em;
     font-weight: bolder;
-    
 }
+
+
   .span-sessao-1{
     background-color: blueviolet;
 }
@@ -88,6 +88,7 @@ button >a{
 
 .sessao-noticias-marketing> h1{
     text-align: center;
+    color: black;
 }
 
 .titulo-sessao-2{
@@ -143,6 +144,10 @@ button >a{
     margin-top: 10px;
 }
 
+.apredizados > h1{
+    color: black;
+}
+
 .apredizado{
     width: 320px;
     height: 250px;
@@ -161,6 +166,7 @@ button >a{
     margin-top: 10px;
     font-size: 1.1em;
     text-align: left;
+    color: black;
 }
 
 .apredizado > .icon-apredizado >img{
@@ -179,7 +185,7 @@ button >a{
 /* Depoimentos*/
 
 .depoimentos{
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -187,6 +193,7 @@ button >a{
 }
 
 .depoimentos >h1{
+   padding-bottom: 30px;
     text-align: center;
     color: blueviolet;
     font-weight: bold;
@@ -212,7 +219,7 @@ button >a{
     text-align: center;
 }
 
-.metodologia > button{
+.metodologia > .btn{
     margin-top: 10px;
 }
 
@@ -232,12 +239,17 @@ button >a{
 
 /* Conteudos + slide*/
 
+.conteudo h1{
+    color: black;
+}
+
 .conteudo{
     padding: 10px;
     margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: black;
 
 }
 .conteudos> img{
@@ -252,15 +264,17 @@ button >a{
 /* Bonus*/
 
 .bonus{
-    color: white;
+  
    display: flex;
    flex-direction: column;
    align-items: center;
    background-color: blueviolet;
+   color: white;
+   padding-bottom: 50px;
 }
 
 .bonus >h1{
-    margin-top: 10px;
+    margin-top: 15px;
 }
 
 .conteudo-bonus{
@@ -284,6 +298,131 @@ button >a{
     height: 100px;
     background-color: black;
 }
+
+.bonus h3, .bonus .btn{
+    margin-top: 15px;
+}
+
+.bonus p{
+    color: blue;
+}
+
+.conteudo-bonus > h2{
+    color: black;
+}
+
+
+
+/* Sobre o produtor */
+
+
+.sobre-o-produtor{
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+    margin-top: 10px;
+    padding: 10px 10px 50px 10px;
+}
+
+.imagem-danton >img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: solid 1px purple;
+}
+
+.sobre-o-produtor h1{
+    font-size: 2em;
+}
+
+.sobre-o-produtor p{
+    font-size: 1.2em;
+    align-self: flex-start;
+}
+
+.sobre-o-produtor h1, .sobre-o-produtor p{
+    
+    margin-top: 20px;
+    color: black;
+   
+
+}
+
+.intro-introdutor{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.intro-introdutor .btn{
+    margin-top: 30px;
+}
+
+
+
+
+/* Duvidas*/
+
+.duvidas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: purple;
+    color: white;
+    padding: 20px 10px 5px 10px;
+}
+
+.duvidas-mais{
+    color: black;
+    font-weight: 700;
+}
+
+.duvida{
+   margin-top: 15px;
+}
+
+.duvida-ocultada{
+    display: none;
+    width: 400px;
+    height: 100px;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.duvida-ocultada-toggle{
+    display:block;
+    
+}
+
+
+.whatsaap{
+    padding: 10px;
+    margin-top: 50px;
+    align-self: flex-end;
+}
+
+.whatsaap > img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+
+/*Rodapé */
+
+.rodapé{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: purple;
+}
+
+
+
+
+
 
 
 
