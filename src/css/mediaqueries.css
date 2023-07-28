@@ -234,6 +234,14 @@
 
         /* Dúvidas */
 
+        .duvidas{
+            display: flex;
+            justify-content: center;
+
+        }
+
+        
+
         .duvidas h1{
             font-size: 2.5em;
         }
@@ -257,6 +265,11 @@
             width: 120px;
             height: 120px;
 
+        }
+
+        .sap{
+            background-color: purple;
+            text-align: end;
         }
 
 
