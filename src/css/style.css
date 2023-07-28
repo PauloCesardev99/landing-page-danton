@@ -349,6 +349,10 @@
 
 }
 
+.intro-introdutor h1{
+    align-self: center;
+}
+
 .intro-introdutor{
     display: flex;
     flex-direction: column;
