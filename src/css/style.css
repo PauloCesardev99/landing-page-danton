@@ -50,7 +50,9 @@
 
 
   .span-sessao-1{
-    background-color: blueviolet;
+    padding: 8px;
+    background-color: green;
+    border-radius: 10px;
 }
 
 .imagens-bandeiras-cartao img{
@@ -78,12 +80,35 @@
     font-size: 2em;
 }
 
+.beneficio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.beneficio article {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 300px;
+    height: 200px;
+    padding: 10px;
+    margin-top: 20px;
+    border: solid 2px green;
+    border-radius: 10px;
+}
+
 .sessao-beneficios p {
     color: black;
-    font-size: 1.9em;
     padding: 10px;
     font-weight: bolder;
 
+}
+
+.imagem-beneficios img{
+    text-align: center;
+    width: 50px;
+    height: 50px;
 }
 
 
@@ -99,18 +124,20 @@
 }
 
 .depoimentos h1{
-    font-size: 2em;
-   padding-bottom: 30px;
+    font-size: 1.2em;
+    padding: 10px;
     text-align: center;
-    color: blueviolet;
     font-weight: bold;
+    background-color: green;
+    border-radius: 10px;
+    margin-bottom: 25px;
 }
 
 
 
 .depoimento img{
     width: 300px;
-    border: solid 1px purple;
+    border: solid 1px green;
     border-radius: 10px;
 }
 
@@ -124,7 +151,7 @@
     align-items: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: black;
+    background-color: rgb(7, 73, 85);
     color: white;
     border-top: solid 2px black;
     text-align: center;
@@ -203,10 +230,11 @@
 
 .sobre-o-produtor h1{
     text-align: center;
-    font-size: 1.2em;
+    font-size: 1.5em;
 }
 
 .sobre-o-produtor p{
+    font-size: 1.2em;
     text-align: justify;
 }
 
@@ -265,8 +293,8 @@
 /* Duvidas*/
 
 .duvidas{
-padding: 50px 20px 20px 20px;
-background-color: purple;
+padding: 50px 10px 20px 10px;
+background-color: rgb(7, 73, 85);
 }
 
 .duvidas h1{
@@ -275,7 +303,12 @@ background-color: purple;
 
 
 .duvidas h2{
+    padding: 10px;
+    height: 80px;
+    border: solid 1px black;
     margin-top: 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.123);
 }
 
 .duvidas-mais{
@@ -287,6 +320,7 @@ background-color: purple;
 
 
 .duvida-ocultada{
+    display: none;
     margin-top: 10px;
     padding: 10px;
     box-shadow: 2px 2px 5px black;
@@ -312,8 +346,12 @@ background-color: purple;
 
 
 .sap{
-    background-color: purple;
+    background-color: rgb(7, 73, 85);
     text-align: center;
+}
+
+aside{
+    background-color: rgb(7, 73, 85);
 }
 
 
@@ -323,7 +361,7 @@ background-color: purple;
     padding: 5px;
     text-align: center;
     color: white;
-    background-color: purple;
+    background-color: rgb(7, 73, 85);
 }
 
 

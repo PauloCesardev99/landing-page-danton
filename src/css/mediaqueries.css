@@ -68,6 +68,15 @@
 
             }
 
+            .beneficio{
+                display: flex;
+                justify-content: space-evenly;
+            }
+
+            .beneficio article p {
+                font-size: 1.2em;
+            }
+
 
                 
 
@@ -80,6 +89,11 @@
             .depoimentos{
             padding: 60px;
             }
+
+            .depoimentos h1{
+                padding: 20px;
+                font-size: 2em;
+            }
             
             .sessao-depoimentos{
                 display: flex;
@@ -90,10 +104,6 @@
 
             }
 
-            .depoimento > iframe{
-                width: 500px;
-                height: 350px;
-            }
 
             /* metodologia */
         .metodologia{
@@ -256,7 +266,6 @@
         }
 
         .sap{
-            background-color: purple;
             text-align: end;
         }
 
