@@ -17,7 +17,7 @@
     height: 150px;
     margin-top: 20px;
     border-radius: 50%;
-    border: solid 2px rgb(114, 238, 247);
+    border: solid 2px green;
 }
 
 
@@ -124,7 +124,7 @@
     align-items: center;
     margin-top: 20px;
     padding: 10px;
-    background-color: blueviolet;
+    background-color: black;
     color: white;
     border-top: solid 2px black;
     text-align: center;
@@ -199,7 +199,6 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    border: solid 1px purple;
 }
 
 .sobre-o-produtor h1{
@@ -214,11 +213,51 @@
 .sobre-o-produtor h1, .sobre-o-produtor p{
     margin-top: 20px;
     color: black;
+
    
 
 }
 
+.sobre-o-produtor .btn{
+    margin-top: 10px;
+}
 
+.garantia-pc{
+    display: none;
+}
+
+
+
+/* Garantia de 7 dias */
+
+.garantia-de-7dias{
+    text-align: center;
+    padding: 10px 0px 50px 0px;
+}
+
+.garantia-de-7dias h1{
+    padding: 10px;
+    font-size: 2em;
+    color: black;
+}
+
+.garantia-de-7dias h2{
+    padding: 10px;
+    color: black;
+    font-size: 1.5em;
+}
+
+.garantia-de-7dias img{
+    margin-top: 10px;
+    width: 250px;
+
+}
+
+.garantia-de-7dias p{
+    font-size: 1.2em;
+    padding: 10px;
+    color: black;
+}
 
 
 
@@ -240,7 +279,6 @@ background-color: purple;
 }
 
 .duvidas-mais{
-    color: black;
     font-weight: 700;
 }
 
@@ -249,7 +287,6 @@ background-color: purple;
 
 
 .duvida-ocultada{
-    display: none;
     margin-top: 10px;
     padding: 10px;
     box-shadow: 2px 2px 5px black;
