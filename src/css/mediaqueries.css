@@ -4,15 +4,19 @@
 
         .btn:hover{
             background-color: purple;
-            color: black;
             transition: 0.9s;
         }
 
         /*Sessão 1 */
 
         .section-principal{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            flex-wrap: wrap;
             background: url(../img/Wallpaper-teste.webp) no-repeat center center;
             background-size: cover;
+            
         }
 
                  .section-principal > h1{
@@ -28,7 +32,6 @@
 
             .section-principal >p{
                 width: 950px;
-                text-align: center;
                 font-size: 20px;
                 line-height: 30px;
                 font-weight: 600;
@@ -37,17 +40,9 @@
 
 
             .pc-e-mobile{
-                width: 30%;
                 margin: 10px 0px 10px 0px;
                 
             }
-
-            .btn{
-                width:40% ;
-            }
-
-
-
             
 
             .section-principal > h3{
@@ -61,55 +56,18 @@
             }
 
 
-            /* Sessao noticias */
+            /* Sessao beneficios*/
 
-            .sessao-noticias-marketing{
-                padding: 60px;
-            }
-
-            .sessao-noticias-marketing  h1{
-
-                font-size: 2.5em;
-                font-weight: bolder;
+            .sessao.beneficios p{
+                text-align: center;
 
             }
 
-            .noticia{
-                width: 100%;
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
-                
-            }
 
-            .sessao-noticias-marketing > p {
-                margin-top: 30px;
-            }
                 
 
 
-            /*Apredizados */
-
-            .apredizados{
-                padding: 60px;
-            }
-
-            .apredizados h1{
-                font-size: 2em;
-                padding: 10px;
-            }
-
-            .sessao-apredizados{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-evenly;
-                width: 100%;
-            }
-
-            .apredizado:hover{
-                background-color: blue;
-                transition: 0.8s;
-            }
+            
 
 
             /* Depoimentos */
