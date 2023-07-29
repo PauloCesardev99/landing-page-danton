@@ -123,28 +123,14 @@
         }
 
 
-        /* Bônus */
+        /* Resultado-alunos*/
 
-        .todos-os-conteudos-bonus{
+        .resultado-alunos{
             display: flex;
-            flex-wrap: wrap;
             justify-content: space-evenly;
-            width: 98vw;
         }
 
-        .conteudo-bonus > p{
-            padding: 1px;
-            font-size: 20px;
-        }
-
-        .bonus .btn{
-            margin-top: 50px;
-        }
-
-        .bonus .btn:hover{
-            background-color: rgb(0, 255, 0);
-
-        }
+        
 
         /* Sobre o produtor*/
 
