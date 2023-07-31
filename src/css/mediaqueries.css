@@ -3,7 +3,7 @@
        /*Especiais */
 
         .btn:hover{
-            background-color:red;
+            background-color: #0047ab;
             transition: 0.9s;
         }
 
@@ -12,15 +12,27 @@
             width: 40%;
         }
 
+        .aaa{
+            background: url(../img/wallpaper-opções-binarias.jpg) no-repeat center center;
+            background-size: cover;
+        }
+
+
+        
+
         /*Sessão 1 */
+
+
+
 
         .section-principal{
             display: flex;
             flex-direction: column;
             align-items: center;
             flex-wrap: wrap;
-            background: url(../img/wallpaper-opções-binarias.jpg) no-repeat center center;
-            background-size: cover;
+            background: rgb(2,0,36);
+            background: linear-gradient(180deg, rgba(0, 0, 0, 0.712) 72%, rgba(205, 205, 212, 0.014) 86%);
+            
             
         }
 
@@ -187,7 +199,7 @@
         .sobre-o-produtor article .imagem-danton > img{
             width: 350px;
             height: 350px;
-            border: solid 5px green;
+            border: solid 5px #0047ab;
 
         }
 
@@ -232,11 +244,6 @@
 
         /* Dúvidas */
 
-        .duvidas{
-            display: flex;
-            justify-content: center;
-
-        }
 
         
 
@@ -247,16 +254,20 @@
         .duvidas h2{
             font-size: 2em;
         }
+
+    
         .duvida-ocultada{
-            width: 800px;
-            height: 150px;
-            margin-top: 10px;
+            width: 1150px;
             padding: 10px;
+            margin-top: 10px;
            
         }
 
+
         .duvida-ocultada p{
             font-size: 1.5em;
+            line-height: 50px;
+        
         }
 
         .whatsaap img {
@@ -268,6 +279,7 @@
         .sap{
             text-align: end;
         }
+
 
 
     
