@@ -1,10 +1,16 @@
 
 /* Sessão principal */
 
+ .aaa{
+    background: url(../img/wallpaper-opções-binarias.jpg) no-repeat center center;
+            background-size: cover;
+ }
+
 .section-principal{
     padding: 10px 10px 60px 10px;
     color: white;
-    background: rgba(0, 0, 0, 0.226) url() no-repeat center center;
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.712) 72%, rgba(205, 205, 212, 0.014) 86%);
     background-size: cover;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
