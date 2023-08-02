@@ -240,6 +240,10 @@
      border-radius: 10px;
 }
 
+.resultado-saldo > img{
+    height: 700px;
+}
+
 
 
 
@@ -328,7 +332,7 @@
 
 .duvidas{
 padding: 50px 10px 20px 10px;
-background-color: #0047ab;
+background-color: #0047ab   ;
 }
 
 .duvidas h1{
