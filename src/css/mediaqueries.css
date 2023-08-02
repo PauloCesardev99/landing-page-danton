@@ -18,6 +18,7 @@
         }
 
 
+
         
 
         /*Sessão 1 */
@@ -30,8 +31,7 @@
             flex-direction: column;
             align-items: center;
             flex-wrap: wrap;
-            background: rgb(2,0,36);
-            background: linear-gradient(180deg, rgba(0, 0, 0, 0.712) 72%, rgba(205, 205, 212, 0.014) 86%);
+            
             
             
         }
@@ -44,22 +44,22 @@
                 
             }
 
-            .section-principal >p{
-                font-size: 20px;
-                line-height: 30px;
-                font-weight: 600;
-            
-            }
 
 
             .pc-e-mobile{
                 margin: 10px 0px 10px 0px;
                 
             }
+
+            .pc-e-mobile > iframe{
+              width: 600px;
+            }
             
 
             .section-principal > h3{
-                font-size: 20px;
+              
+                margin-top: 10px;
+                font-size: 1.6em;
                 font-weight: bolder;
             }
 
@@ -99,7 +99,7 @@
             }
 
             .depoimentos h1{
-                padding: 20px;
+                padding: 10px;
                 font-size: 2em;
             }
             
@@ -114,12 +114,18 @@
 
 
             /* metodologia */
+
         .metodologia{
             padding: 60px;
         }
 
         .metodologia > img{
+            width: 30%;
             margin: 10px;
+        }
+
+        .metodologia-imagem-metodo img{
+            width: 35%;
         }
 
         .metodologia h1{
@@ -128,12 +134,15 @@
             margin: 10px 0px 10px 0px;
         }
 
+        
+
        
 
-        .metodologia > p, .metodologia > .btn, .metodologia > h3 {
+        .metodologia > p, .metodologia > .btn, .metodologia > h2 {
 
             margin-top: 35px;
         }
+
 
         .metodologia .btn:hover{
             background-color: rgb(0, 255, 0);
@@ -194,7 +203,7 @@
         .sobre-o-produtor article .imagem-danton > img{
             width: 350px;
             height: 350px;
-            border: solid 5px #0047ab;
+            border: solid 5px black;
 
         }
 
