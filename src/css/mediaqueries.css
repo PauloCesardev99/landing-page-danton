@@ -281,13 +281,32 @@
 
       .form-contato .input{
         color: black;
-        margin-top: 10px;
-        width: 50%;
+        margin-top: 2px;
+        width: 99%;
         height: 50px;
       }
 
       textarea{
-        width: 55%;
+        width: 98%;
+      }
+
+      .formulario{
+        display: flex;
+        justify-content: center;
+      }
+
+      form{
+       width: 50%;
+        
+      }
+
+      .formulario .btn{
+        width: 80%;
+      }
+
+      label{
+        display: block;
+        text-align: start;
       }
 
 }
