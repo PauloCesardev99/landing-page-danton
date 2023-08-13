@@ -1,6 +1,6 @@
 const ACORDION = [...window.document.querySelectorAll(".duvida > h2")]
 const duvidas_ocultadas = [...window.document.querySelectorAll(".duvida-ocultada")]
-const setas_acordion = [...window.document.querySelectorAll(".acordion")]
+
 
 
 

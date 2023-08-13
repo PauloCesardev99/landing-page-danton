@@ -1,6 +1,8 @@
 
 /* Sessão principal */
 
+
+
  .aaa{
     background: url(../img/wallpaper-opções-binarias.jpg) no-repeat center center;
             background-size: cover;
@@ -64,8 +66,9 @@
 
 
 .btn{
+    display: inline-block;
     margin-top: 20px;
-    padding: 10px;
+    padding: 20px;
     color: white;
     background-color: rgb(0, 255, 0);
     width: 70%;
