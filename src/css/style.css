@@ -371,15 +371,32 @@ background-color: black;
 }
 
 .duvida-ocultada{
-    display: none;
+    display: none; 
     padding: 5px;
     margin-top: 10px;
     box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.479);
 
 }
 
+.duvida-aparacer{
+    display: block !important;
+}
+
 .seta{
     font-size: 25px;
+}
+
+.duvida-flex h2{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.duvida-flex h2 img{
+    align-self: center;
+    width: 25px;
+    height: 25px;
+    transform: rotate(90deg);
 }
 
 
