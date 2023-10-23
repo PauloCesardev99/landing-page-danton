@@ -393,7 +393,7 @@ background-color: black;
 }
 
 .duvida-flex h2 img{
-    align-self: center;
+    align-self: flex-end;
     width: 25px;
     height: 25px;
     transform: rotate(90deg);
